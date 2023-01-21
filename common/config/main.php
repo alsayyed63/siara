@@ -9,5 +9,8 @@ return [
         'cache' => [
             'class' => \yii\caching\FileCache::class,
         ],
+        'googleModel'=>[
+            'class'=> common\components\GoogleDrive::class,
+        ],
     ],
 ];
